@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+        rel="stylesheet">
 
 
     <link rel="stylesheet" href="main.css">
     <title>Simon B</title>
 </head>
+
 <body>
 
-    <section class = "style1">
+    <section class="style1">
         <div class="main-container">
+
+            <!-- ********************* -->
+            <!--    Headers            -->
+            <!-- ********************* -->
 
             <div class="greeting-wrapper">
                 <h1>Hi, I'm Simon Burghardt</h1>
             </div>
-            
+
             <div class="intro-wrapper">
                 <div class="nav-wrapper">
                     <div class="dots-wrapper">
@@ -34,38 +41,76 @@
                     <ul id="navigation">
 
                         <li><a href="#">Contact</a></li>
-                        
+
                     </ul>
 
                 </div>
+
+                <!-- ********************* -->
+                <!-- first Section left col -->
+                <!-- ********************* -->
+
+
                 <div class="left-column">
-                    left-column
+                    <img id="profile_pic" src="https://randomuser.me/api/portraits/men/22.jpg" alt="">
+                    <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
+
+                    <div id="theme-options-wrapper">
+                        <div class="theme-dot" id="light-mode"></div>
+                        <div class="theme-dot" id="blue-mode"></div>
+                        <div class="theme-dot" id="green-mode"></div>
+                        <div class="theme-dot" id="purple-mode"></div>
+                    </div>
+                    <p id="settings-note">*Theme settings will be saved for <br> your next visit</p>
                 </div>
+
+                <!-- ********************* -->
+                <!-- first Section right col -->
+                <!-- ********************* -->
+
                 <div class="right-column">
-                    right-column
+
+                    <div id="preview-shadow">
+
+                        <div id="preview">
+
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+
+                            <h3>What I Do</h3>
+                            <p>I am actually completely in coding flow, seeking for new experiences</p>
+
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-br" class="corner"></div>
+
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-
         </div>
     </section>
 
-    <section class = "style2">
+    <section class="style2">
         <div class="main-container">
             About
         </div>
     </section>
 
-    <section class = "style1">
+    <section class="style1">
         <div class="main-container">
             Portfolio
         </div>
     </section>
 
-    <section class = "style2">
+    <section class="style2">
         <div class="main-container">
             Contact
         </div>
     </section>
 
 </body>
+
 </html>
