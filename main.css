@@ -19,7 +19,7 @@
     --prevewBg: rgb(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
 
-    --btnColor: black
+    --btnColor: black;
 }
 
 
@@ -133,6 +133,10 @@ h6 {font-size: 16px;}
     margin-left: 5px;
 }
 
+#navigation a{
+    
+}
+
 .dots-wrapper{
     display: flex;
     justify-content: space-around;
@@ -156,7 +160,7 @@ h6 {font-size: 16px;}
     border-radius: 50%;
     margin: 5px;
 
-    box-shadow: -1px 1px 3px -1px rgba(0, 0,0,.75);
+    box-shadow: 1px -1px 3px -1px rgba(0, 0,0,.75);
 
 }
 
