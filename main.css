@@ -406,6 +406,15 @@ h6 {font-size: 16px;}
     border: none;
 }
 
+#submit-btn:active{
+    background-color: #345;
+    transform: scale(.99);
+}
+
+.input-field._error{
+    box-shadow: 0 0 15px red;
+}
+
 /* *************************** */
 /* *     Responsives things      */
 /* *************************** */
