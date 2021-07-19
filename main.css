@@ -376,6 +376,11 @@ h6 {font-size: 16px;}
 
 }
 
+.disabled_form{
+    text-align: center;
+    color: lightcoral;
+}
+
 #contact-form label{
     line-height: 2.5em;
 }

@@ -11,10 +11,10 @@ $mail->setLanguage('de', 'phpmailer/language/');
 $mail->IsHTML(true);
 
 // from
-$mail->setFrom('burghardt_simon@gmx.de', 'Sem from 1');
+$mail->setFrom('dummymail_simon@gmx.de', 'Sem from 1');
 
 // to
-$mail->addAddress('semburg.sb@gmail.com');
+$mail->addAddress('dummymail2@gmail.com');
 
 // subject
 
