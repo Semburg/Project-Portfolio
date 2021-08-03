@@ -439,11 +439,11 @@ h6 {font-size: 16px;}
 }
 
 #project-forty{
-    background: url("/src/Capture2.PNG") center center/cover no-repeat;
+    background: url("src/Capture2.PNG") center center/cover no-repeat;
 }
 
 #project-yoga {
-    background: url("/src/silent.PNG") center center/cover no-repeat;
+    background: url("src/silent.PNG") center center/cover no-repeat;
 }
 #wrapper-links{
     background-color: #fff;
@@ -454,7 +454,7 @@ h6 {font-size: 16px;}
 }
 
 #project-cat{
-    background: url("/src/Cat.PNG") center center/cover no-repeat;
+    background: url("src/Cat.PNG") center center/cover no-repeat;
 
 }
 
