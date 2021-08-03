@@ -421,6 +421,47 @@ h6 {font-size: 16px;}
 }
 
 /* *************************** */
+/* *     Section for every Project - post.html etc       */
+/* *************************** */
+
+.main-container.project-page{
+    padding: 2rem;
+    margin-top: 1rem;
+    height: 80vh;
+    
+    border-radius: 10px;
+}
+
+
+.links-sources:hover{
+    color: rgb(73, 249, 255);
+    transition: all .7s;
+}
+
+#project-forty{
+    background: url("/src/Capture2.PNG") center center/cover no-repeat;
+}
+
+#project-yoga {
+    background: url("/src/silent.PNG") center center/cover no-repeat;
+}
+#wrapper-links{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+    border-right: rgb(216, 216, 216) 1px dashed;
+}
+
+#project-cat{
+    background: url("/src/Cat.PNG") center center/cover no-repeat;
+
+}
+
+
+
+
+/* *************************** */
 /* *     Responsives things      */
 /* *************************** */
 
